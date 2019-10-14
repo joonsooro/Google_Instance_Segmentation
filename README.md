@@ -44,6 +44,8 @@ python create_submission.py -l 1
   - Integegrate Submission File
   ```linux python integrate_results.py --input1 output_0.csv --input2 output_1.csv```
   
+  3. For the sake of setting up the routes, I copied duplicate of maskrcnn_benchmark file from maskrcnn-benchmark in the "with_training" file. (It was much more convenient for me to do so. You will understand what I mean as you use my code.)
+ 
    - Reference     
   1. [Maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark/blob/master/INSTALL.md)
   2. If you want to train with multiple GPUS: [yu4u](https://github.com/yu4u/kaggle-open-images-2019-instance-segmentation)
